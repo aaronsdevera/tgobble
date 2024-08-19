@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tgobble"
+version = "0.1.0"
+description = "Gobbling up Telegram attachments"
+authors = ["Aaron DeVera <aaronsdevera@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyrogram = "^2.0.106"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tgobble = "tgobble.cli:cli"
