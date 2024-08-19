@@ -1,6 +1,12 @@
 # tgobble
 Gobbling up Telegram attachments
 
+## installing
+
+If you have [`poetry`](https://python-poetry.org/) you can do enter the repo and run `poetry install` and you can just use `poetry run tgobble` from the command line.
+
+Otherwise you can do a build like `poetry build` and install the resulting `.whl` binary.
+
 ## example config file
 
 You can get the `api_id` and the `api_hash` by going to [my.telegram.org](https://my.telegram.org), authenticating, and creating "a new app" from the options on the webpage.
